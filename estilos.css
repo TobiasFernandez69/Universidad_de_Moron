@@ -1,0 +1,197 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+}
+body{
+	background: whitesmoke;
+	
+	color: #fff;
+	
+}
+.contenedor
+{
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+header
+{
+	height: 150px; 
+	background: rgb(14, 159, 226); 
+}
+
+header h1
+{
+	font-size: 50px; 
+	text-align: center;
+	line-height: 150px;
+}
+	
+header img
+{
+	float: right; 
+	height: 50px;
+}
+nav
+{
+	background: orange;
+	height: 60px;
+}
+nav ul li
+{
+	
+	display: inline;
+	
+}
+nav ul li a
+{
+	font-family: Arial;
+	font-size: 11px;
+	text-decoration: none;
+	float: left;
+	padding: 24px;
+	background-color: rgb(47, 108, 165);
+	color: #fff;
+}
+nav ul li a:hover {
+	background-color: #2586d7;
+	margin-top: -2;
+padding-bottom: 24px;}
+}
+
+
+.contenido
+{
+	width: 1000px;
+	height: 500px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: powderblue;
+		float: left;
+		margin-bottom: 10px;
+}
+.contenido article
+{
+	color:  rgb(14, 159, 226);
+	text-align: center;
+	font-size: 25px;
+}
+.contenido h3
+{
+	color: blue;
+	text-align: center;
+	line-height: 100px;
+}
+.contenido p
+{
+	text-align: justify;
+	color: black;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+h4 
+{
+	font-size: 30px;
+	color: rgb(57, 58, 58);
+}
+
+h5 
+{
+	font-size: 35px;
+	color: rgb(21, 223, 223);
+}
+
+.img1
+{
+	height: auto;
+	width: auto;
+	max-height: 100px; 
+	max-width: 100px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}
+
+.img2
+{
+	height: auto;
+	width: auto;
+	max-height: 100px; 
+	max-width: 100px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}
+
+.img3
+{
+	height: auto;
+	width: auto;
+	max-height: 80px; 
+	max-width: 80px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}
+
+.img4
+{
+	height: auto;
+	width: auto;
+	max-height: 70px; 
+	max-width: 70px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}
+
+.img5
+{
+	height: auto;
+	width: auto;
+	max-height: 70px; 
+	max-width: 70px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}
+
+.img6
+{
+	height: auto;
+	width: auto;
+	max-height: 70px; 
+	max-width: 70px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}
+
+.img7
+{
+	height: auto;
+	width: auto;
+	max-height: 70px; 
+	max-width: 70px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}
+
+.imgg1
+{
+	height: auto;
+	width: auto;
+	max-height: 70px; 
+	max-width: 70px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}
+
+.imgg2
+{
+	height: auto;
+	width: auto;
+	max-height: 70px; 
+	max-width: 70px; 
+	border-radius: 3px; 
+	margin: 10px; 
+}

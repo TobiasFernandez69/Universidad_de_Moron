@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<link rel="shortcut icon" type= "image//png" href="C:\Users\tobia\OneDrive\Documents\html\Pagina Universidades\Img/Uni_Moron.png">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="C:\Users\tobia\OneDrive\Documents\html\Pagina Universidades/estilos.css">
+
+<title>Universidades</title>
+
+</head>
+<body> 
+<div class="contenedor"> 
+
+<header> 
+<h1>Universidad de Moron</h1>
+
+</header> 
+<nav> 
+<ul>
+<li><a href="C:\Users\tobia\OneDrive\Documents\html\Pagina Universidades/Index Universidades.html">Inicio</a></li>
+<li><a href="C:\Users\tobia\OneDrive\Documents\html\Pagina Universidades/Carreras.html">Carreras</a></li>
+<li><a href="C:\Users\tobia\OneDrive\Documents\html\Pagina Universidades/Formulario.html">Registro</a></li>
+<li><a href="C:\Users\tobia\OneDrive\Documents\html\Pagina Universidades/Calendario.html">Calendario Academico 2024</a></li>
+<li><a href="C:\Users\tobia\OneDrive\Documents\html\Pagina Universidades/Contacto.html">Contacto</a></li>
+
+</ul>
+</nav>
+
+<section class="contenido">
+<article><h2>Registro</h2>
+<p> Si lo deseas, puedes dejarnos tus datos, junto con la materia que deseas cursar, asi, de este modo te tendremos en cuenta
+    para las proximas inscripciones. 
+</p>
+<img src="C:\Users\tobia\OneDrive\Documents\html\Pagina Universidades\Img/Registro_RR.jpg" width= "400" height= "300"> </img>
+<br> 
+<h2>Formulario de Inscripción</h2>
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" required><br><br>
+
+        <label for="carrera">Carrera a estudiar:</label><br>
+        <input type="text" id="carrera" name="carrera" required><br><br>
+
+        <label for="horario_cursado">Horario de cursado:</label><br>
+        <select id="horario_cursado" name="horario_cursado" required>
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+            <option value="vespertino">Vespertino</option>
+        </select><br><br>
+
+        <label for="modalidad">Modalidad:</label><br>
+        <select id="modalidad" name="modalidad" required>
+            <option value="Presencial">Presencial</option>
+            <option value="Virtual">Virtual</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
